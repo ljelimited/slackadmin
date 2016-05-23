@@ -30,7 +30,7 @@ echo
 #df -h | awk '$5 ~ "[9].%" {print $5 "\t" $6}'
 df -h |grep -v Vol
 echo -----------------------------------------------
-}|mail -s "Disk $check% full @$HOSTNAME" youremail@yourdoamin.net
+}|mail -s "Disk $check% full @$HOSTNAME" youremail@yourdomain.net
 #else
 #echo diskusage OK
 fi
